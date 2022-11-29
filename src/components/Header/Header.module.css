@@ -1,0 +1,32 @@
+header {
+  box-shadow: var(--shadow);
+  background-color: var(--ui-base-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.link {
+  color: var(--text-color);
+  font-size: var(--fs-lg);
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}
+
+.mode-switcher {
+  color: var(--text-color);
+  font-size: var(--fs-sm);
+  cursor: pointer;
+  text-transform: capitalize;
+}

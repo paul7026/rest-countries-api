@@ -1,0 +1,26 @@
+.select {
+  width: 200px;
+  border-radius: var(--radii);
+  font-family: var(--family);
+  border: none;
+}
+
+.select input {
+  padding-left: 0.25rem !important;
+}
+
+.select * {
+  color: var(--colors-text) !important;
+}
+
+.select > * {
+  box-shadow: var(--shadow);
+}
+
+.select > div[id] {
+  background-color: var(--ui-base-color);
+}
+
+.select div span {
+  display: none;
+}

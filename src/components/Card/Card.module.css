@@ -1,0 +1,42 @@
+.article {
+  border-radius: var(--radii);
+  background-color: var(--ui-base-color);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.article img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: var(--shadow);
+}
+
+.card-body {
+  padding: 1rem 1.5rem 2rem;
+}
+
+.card-body h3 {
+  margin: 0;
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+}
+
+.card-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0 0;
+}
+
+.card-body li {
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  font-weight: var(--fw-light);
+}
+
+.card-body li b {
+  font-weight: var(--fw-bold);
+}
